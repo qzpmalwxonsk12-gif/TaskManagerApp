@@ -1,4 +1,20 @@
-# TaskManager (Stage 1)
+# TaskManager — Android Tasks and Widgets
+
+## Current source overview
+
+The current Android configuration declares **version 1.3**, min SDK 26 and compile/target SDK 35. The original Stage 1 design below remains useful background, but the repository also includes later appearance and widget work described in [APPEARANCE.md](APPEARANCE.md), [FEATURES.md](FEATURES.md) and [CHANGES.md](CHANGES.md).
+
+This is a Kotlin/Jetpack Compose task manager with local task/recurrence workflows, appearance controls and home-screen widget support. Recurring task templates and dated instances have distinct roles; review that section before changing recurrence logic or persistence.
+
+Use JDK 17, Android SDK 35 and the included Gradle wrapper. Configure the local SDK path, then build a debug APK:
+
+```powershell
+.\gradlew.bat :app:assembleDebug
+```
+
+The APK is created under `app/build/outputs/apk/debug/`. Release signing keys and local `keystore.properties`/`local.properties` are deliberately excluded. Source build instructions do not grant access to an original release-signing key.
+
+Start with task creation, recurrence and appearance selection, then add a widget through the launcher to check its update behaviour. Device/launcher behaviour and long-running background updates require their own checks; historical unit/simulated results do not establish every physical-device scenario.
 
 A native Android task-management app built with **Kotlin**, **Jetpack Compose**, and an
 **MVVM + Repository** architecture. Fully offline (Room/SQLite), no networking, no
@@ -78,3 +94,8 @@ it via `sdk.dir`, or the `ANDROID_HOME` env var):
 ```
 
 The Gradle wrapper (8.2) is included. JDK 17 is required (AGP 8.2.2).
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.
