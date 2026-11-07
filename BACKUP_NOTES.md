@@ -18,3 +18,7 @@ This is a current working-file snapshot, not a copy of the original Git history.
 - `taskmanager-release.aab`: build, runtime, credentials, archive, or model artifact
 - `taskmanager-release.apk`: build, runtime, credentials, archive, or model artifact
 - `app\build/`: generated, runtime, dependency, or local data directory
+
+
+## Final source/security review (2026-11-07)
+

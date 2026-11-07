@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "size": 254,
-      "sha256": "9c924cd4d261213dca26cdd69eb3fccff02e009c03c84f6d87005f7edeef468e"
+      "size": 612,
+      "sha256": "8c43bef62412baef37be0d3aab448cf01527d816dbcbf896c257d61f0817ed94"
     },
     {
       "path": "APPEARANCE.md",
@@ -12,9 +12,9 @@
       "sha256": "7d58efcbf52d1101e0520f03a9f9144d825c2fcf5c2d0f3208ba9e75223ebffc"
     },
     {
-      "path": "build.gradle.kts",
-      "size": 375,
-      "sha256": "2a830673059e2887dc41c05d0d0316a4774a6fd6e18f766c2715e84c2df75174"
+      "path": "BACKUP_NOTES.md",
+      "size": 1382,
+      "sha256": "347ce00eaa94862d58b1aed1304860bbd8ee2fb4eb23109682a7fe5c1c540289"
     },
     {
       "path": "CHANGES.md",
@@ -27,29 +27,9 @@
       "sha256": "3fd19a1da93fc7980bbd4d8b8278ca9c5ffd6d2bf745033e331414647b703b9f"
     },
     {
-      "path": "gradle.properties",
-      "size": 846,
-      "sha256": "cd1c4966292878fcf1a9d00c78d4da236f03f35e18a22fb374528e7ca5361b5a"
-    },
-    {
-      "path": "gradlew",
-      "size": 8164,
-      "sha256": "838188de1667ed68ed70a3c29f7bc406b5a3ec329c75a991cdc0f613e5f490b2"
-    },
-    {
-      "path": "gradlew.bat",
-      "size": 2776,
-      "sha256": "18774a0ac0203f6893bf1db3291a0d77f06cd1b4dca2a43b51e7009da3e28cfa"
-    },
-    {
       "path": "README.md",
-      "size": 4055,
-      "sha256": "794922963dd44175b08d7d16aeee59889df288e59352f7c17439409627ea4846"
-    },
-    {
-      "path": "settings.gradle.kts",
-      "size": 536,
-      "sha256": "d8638a03a58b789105f36aaa4485fc32b23e166da8a4aae1b24e89cb8ad3985a"
+      "size": 5897,
+      "sha256": "042756dc890f89797ff0096d91cb62c7273f77deb9733550c5122949854b5bf4"
     },
     {
       "path": "app/build.gradle.kts",
@@ -602,6 +582,11 @@
       "sha256": "ee089567f21f563ba92020655d371b3af4277236559f158ba5c607b7c47eaf76"
     },
     {
+      "path": "app/src/main/res/drawable-nodpi/widget_paper_art.png",
+      "size": 2461628,
+      "sha256": "ca53a015e35194183a929bca0ff61dae71486cf0e630a4024df4b97f2558ec83"
+    },
+    {
       "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
       "size": 645,
       "sha256": "b5ac6d5087fb5bad4907558114e0abad518310ca60a79b2154725f692fa23cbd"
@@ -682,11 +667,6 @@
       "sha256": "4b4343e65326b36d77e083ac01e28af1ed2bf9a453c027d0b67f361c5bde8ee5"
     },
     {
-      "path": "app/src/main/res/drawable-nodpi/widget_paper_art.png",
-      "size": 2461628,
-      "sha256": "ca53a015e35194183a929bca0ff61dae71486cf0e630a4024df4b97f2558ec83"
-    },
-    {
       "path": "app/src/main/res/layout/notification_collapsed.xml",
       "size": 1321,
       "sha256": "18ce94255090cf20c7f47e0ef65972264bccfa15135a06600f949ee93fb3c892"
@@ -742,6 +722,11 @@
       "sha256": "678da6560d837e905ba0c82a15a11918714729de283138721e85ccc1eb1ee9ff"
     },
     {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "size": 232,
+      "sha256": "7d9f8be491b84a51c2e0a2af838209667a96db6f876e793f648b1ae757cf1602"
+    },
+    {
       "path": "app/src/main/res/values/colors.xml",
       "size": 316,
       "sha256": "3e772e7421473a89eb2ede3f2e20ff6951ce452c52f270dc00eb28d8bfe60430"
@@ -755,11 +740,6 @@
       "path": "app/src/main/res/values/themes.xml",
       "size": 796,
       "sha256": "0b9a63481052e5077048d6eeab5254000204b37b4ae951cfb1674ff498f86980"
-    },
-    {
-      "path": "app/src/main/res/values-night/themes.xml",
-      "size": 232,
-      "sha256": "7d9f8be491b84a51c2e0a2af838209667a96db6f876e793f648b1ae757cf1602"
     },
     {
       "path": "app/src/main/res/xml/task_widget_info.xml",
@@ -777,14 +757,39 @@
       "sha256": "29f913711a762acabc2f4f308a772457bf4e311cafd5d5b57a9e4597450a33d8"
     },
     {
+      "path": "build.gradle.kts",
+      "size": 375,
+      "sha256": "2a830673059e2887dc41c05d0d0316a4774a6fd6e18f766c2715e84c2df75174"
+    },
+    {
+      "path": "gradle.properties",
+      "size": 846,
+      "sha256": "cd1c4966292878fcf1a9d00c78d4da236f03f35e18a22fb374528e7ca5361b5a"
+    },
+    {
       "path": "gradle/wrapper/gradle-wrapper.jar",
       "size": 63375,
       "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4"
     },
     {
       "path": "gradle/wrapper/gradle-wrapper.properties",
-      "size": 250,
-      "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+      "size": 345,
+      "sha256": "2cfe3d2d7fc405fd4143a7354337910252ac788f18c2b8e63c257cbd8f0c7d29"
+    },
+    {
+      "path": "gradlew",
+      "size": 8164,
+      "sha256": "838188de1667ed68ed70a3c29f7bc406b5a3ec329c75a991cdc0f613e5f490b2"
+    },
+    {
+      "path": "gradlew.bat",
+      "size": 2776,
+      "sha256": "18774a0ac0203f6893bf1db3291a0d77f06cd1b4dca2a43b51e7009da3e28cfa"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "size": 536,
+      "sha256": "d8638a03a58b789105f36aaa4485fc32b23e166da8a4aae1b24e89cb8ad3985a"
     },
     {
       "path": "store_assets/feature-graphic-1024x500.png",
@@ -806,5 +811,7 @@
       "size": 2633,
       "sha256": "a91fb1cebe5f229a17b00ad1d71746b92b11f66c77e5d35822553d5e4586e3b1"
     }
-  ]
+  ],
+  "last_reviewed": "2026-11-07",
+  "manifest_scope": "Current reviewed source snapshot, excluding this manifest itself and untracked generated outputs."
 }
