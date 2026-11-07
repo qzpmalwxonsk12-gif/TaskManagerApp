@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#4C5FD5</color>
+
+    <!-- Notification text: high-contrast on the dark notification background -->
+    <color name="notif_text_primary">#FFFFFFFF</color>
+    <color name="notif_text_secondary">#FFCFCFCF</color>
+</resources>

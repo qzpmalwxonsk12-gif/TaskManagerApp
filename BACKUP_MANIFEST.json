@@ -1,0 +1,810 @@
+{
+  "date": "2026-11-07",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 254,
+      "sha256": "9c924cd4d261213dca26cdd69eb3fccff02e009c03c84f6d87005f7edeef468e"
+    },
+    {
+      "path": "APPEARANCE.md",
+      "size": 5804,
+      "sha256": "7d58efcbf52d1101e0520f03a9f9144d825c2fcf5c2d0f3208ba9e75223ebffc"
+    },
+    {
+      "path": "build.gradle.kts",
+      "size": 375,
+      "sha256": "2a830673059e2887dc41c05d0d0316a4774a6fd6e18f766c2715e84c2df75174"
+    },
+    {
+      "path": "CHANGES.md",
+      "size": 17303,
+      "sha256": "2ea86ffd7132ad792fc33c825e81bf07a93b6c653de525584786d4bf440740c5"
+    },
+    {
+      "path": "FEATURES.md",
+      "size": 12226,
+      "sha256": "3fd19a1da93fc7980bbd4d8b8278ca9c5ffd6d2bf745033e331414647b703b9f"
+    },
+    {
+      "path": "gradle.properties",
+      "size": 846,
+      "sha256": "cd1c4966292878fcf1a9d00c78d4da236f03f35e18a22fb374528e7ca5361b5a"
+    },
+    {
+      "path": "gradlew",
+      "size": 8164,
+      "sha256": "838188de1667ed68ed70a3c29f7bc406b5a3ec329c75a991cdc0f613e5f490b2"
+    },
+    {
+      "path": "gradlew.bat",
+      "size": 2776,
+      "sha256": "18774a0ac0203f6893bf1db3291a0d77f06cd1b4dca2a43b51e7009da3e28cfa"
+    },
+    {
+      "path": "README.md",
+      "size": 4055,
+      "sha256": "794922963dd44175b08d7d16aeee59889df288e59352f7c17439409627ea4846"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "size": 536,
+      "sha256": "d8638a03a58b789105f36aaa4485fc32b23e166da8a4aae1b24e89cb8ad3985a"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "size": 4422,
+      "sha256": "fc61b91ac0c31a00fd76525c4ecc664446193da18ead19a8291a1226d784f79c"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "size": 323,
+      "sha256": "38067951e131622b2fae823c11a6480be9bc429650806d96fe68736d03bd1eed"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "size": 3918,
+      "sha256": "9ca81ebf792f439b7a429a566ffe0630aae11e365a324c5b8d2ae95e44c6378e"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/MainActivity.kt",
+      "size": 2120,
+      "sha256": "edc5629fd933ff9b29ca0ceab90498395851cb204ffce226a77e50233c7635f1"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/TaskManagerApplication.kt",
+      "size": 884,
+      "sha256": "90aa2df5b4f365b4c4413144d554b4d90cffd80e171055d1b6dbc7e6cf5629a9"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/Converters.kt",
+      "size": 1164,
+      "sha256": "eb6532050bbb09e135fbc273718837281aef7b6a3c4af0d0d297f3a68f37fc56"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/DatabaseMigrations.kt",
+      "size": 8579,
+      "sha256": "e5b43bfe8d6cebd6bb64179e9f80aabd2550a28d7ef8f068adaec8d08cfac0f8"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/TaskDatabase.kt",
+      "size": 1613,
+      "sha256": "7820b7d1bf82abc4f571f4fea7ce331c0d2cf71b01c887033d0f4baff08fdf41"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/TimePeriodSeed.kt",
+      "size": 1484,
+      "sha256": "db8298a990c599c7258cae3f30bc1aa9379dad091c2ddcdc1b7fdabdde8ca17d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/dao/NoteDao.kt",
+      "size": 920,
+      "sha256": "b57254dfec9c97f8de30f209e47badcf4d508c4fb5dbdf4de1617981a13929b0"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/dao/ProfileDao.kt",
+      "size": 402,
+      "sha256": "e1aa5cb1e6b8cd66ec2e1bf38861aa1c3f122e74fad2cbc20e213134fa07472f"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/dao/SessionStatDao.kt",
+      "size": 892,
+      "sha256": "c143b060b5954730bd8f0f48c854349521181ac5558da8e2ff33acf7254eca64"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/dao/SettingsDao.kt",
+      "size": 502,
+      "sha256": "1c793d1782fe6502d0a2dcd5ab59699bc615e94ed3e09f674f1a984174db86c9"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/dao/TaskDao.kt",
+      "size": 6475,
+      "sha256": "47b02a8dec68d8841c5517cc9303a453aa5b0524a68b22d48ea9af416150a156"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/dao/TimePeriodDao.kt",
+      "size": 1010,
+      "sha256": "f3db1b7e05ad5e9a0333a13875a20dc73d6dd067818b074ff749a7224faf6fec"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/NoteEntity.kt",
+      "size": 373,
+      "sha256": "91c78be634bfdef9afeb20b5dd83eed18e1405676e3d8871b7d757b31f89d389"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/ProfileEntity.kt",
+      "size": 271,
+      "sha256": "ce380ae24f243ab13aec4eeef4e8b592ffc4446a57ec72367da18ab45ba08416"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/SessionStatEntity.kt",
+      "size": 601,
+      "sha256": "1874fc4a6350c5031ddd18a461f52ca4002fd7ba878a06ba27fad55137916f55"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/SettingsEntity.kt",
+      "size": 1231,
+      "sha256": "00335dd8df3e24d9304e484ea785738b561f48209f092440488dd8e7922053fe"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/TaskEntity.kt",
+      "size": 2826,
+      "sha256": "9978d45f2763198ecb7d1b78414ab1cc1823131e201c7858cd38021c6b77269d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/TaskTemplateEntity.kt",
+      "size": 864,
+      "sha256": "855f11de5049cfa4d81d2fd8bc76cafeda3dc65f33c6a82e4ebca27f261c2691"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/local/entity/TimePeriodEntity.kt",
+      "size": 551,
+      "sha256": "7473d52876b0291e169955ab484b603bbcd509c5859a72fa2569f766ddbddd8e"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/mapper/NoteMappers.kt",
+      "size": 479,
+      "sha256": "41ba21d6ec3aebbbac3bc552f4f4532bbaf345dbf2cfb2266b520b12fbbaa998"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/mapper/ProfileMappers.kt",
+      "size": 375,
+      "sha256": "e877ba23776a0b214618b0db4b038d64d90e23354b0b4e2ae2db2f4959d39005"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/mapper/SettingsMappers.kt",
+      "size": 1443,
+      "sha256": "4eb687afb0b2929d6118db9ca7afa1d988612e38e69602557ff40f8156d27ed2"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/mapper/TaskMappers.kt",
+      "size": 3467,
+      "sha256": "6006ae93f4f82fa79450f7c3c3f304349a62e0cf836e0edd4cd2b46c65d8f22f"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/mapper/TimePeriodMappers.kt",
+      "size": 789,
+      "sha256": "3a39c154ac91392f1b67e037f249923776adb41f785f502ad465fc32a9f15328"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/NoteRepository.kt",
+      "size": 578,
+      "sha256": "9f41b68ac35dc2067314f649de1d29f5abdd120532d744a6a596e6391b0063e7"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/NoteRepositoryImpl.kt",
+      "size": 973,
+      "sha256": "c5e6680682dd09b0c0e5f26d0c28c34bdd4d4cc326a20e93db75157f74343e9b"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/ProfileRepository.kt",
+      "size": 844,
+      "sha256": "fce57636614aaed0f9ab0a6c816487928d8e85c85f7850a2e7d177f69f3227a4"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/SettingsRepository.kt",
+      "size": 1041,
+      "sha256": "3e1970c03c422bbfc039a365a2d7ac2e391a3c42ab132f1693df06d82559a5aa"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/StatsRepository.kt",
+      "size": 1790,
+      "sha256": "6300e44ff5665a7de7debb1431a7cddd04cb562ef7ab0b50d7893536fef3671b"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/TaskRepository.kt",
+      "size": 3075,
+      "sha256": "6fa9cdc39da5d52b0c87048e2511b79f2bc3b733f3319ce982f871095610167d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/TaskRepositoryImpl.kt",
+      "size": 8578,
+      "sha256": "f142d65b623630e7d173fb73405618f518f816f5b48f084646aeabc689a42d2d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/TimePeriodRepository.kt",
+      "size": 1218,
+      "sha256": "26e998e3c1750ff37d80d53570a780d11bb652ad68f950614cef566a042ab32b"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/data/repository/TimePeriodRepositoryImpl.kt",
+      "size": 1980,
+      "sha256": "76c929756e2a0f6eafd077cfb05c60661d75bd9a76644e92276f05ec835c3e6a"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/di/DatabaseModule.kt",
+      "size": 2695,
+      "sha256": "1e1cc569da8f1f0bef7336882bb465b7431617af143e21afc8008c97398bac76"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/di/RepositoryModule.kt",
+      "size": 1697,
+      "sha256": "441a441742a0c5dc07e20462056990dde44d37e804c9bd9f3c4038d074cedad2"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/ActivityStat.kt",
+      "size": 428,
+      "sha256": "108db1cf2fc7ac3b16273cd9974e766aabbcddaf1f84b6cf796357ff3c02b38d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/AppSettings.kt",
+      "size": 2382,
+      "sha256": "f51167238c2f12b67bde284d76c2575f6175d6b6ecdadda14a115cf5dc9fac09"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/Category.kt",
+      "size": 384,
+      "sha256": "1890d3447a8f5a5e937a734390b9a6b8108c46990fc6104c7cadbafd8a2d94fa"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/Note.kt",
+      "size": 386,
+      "sha256": "b16bb5dce8344c5250f62ce2bedddb1b0e37b932f208cd38a176ecb246dfda17"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/Priority.kt",
+      "size": 313,
+      "sha256": "bad05c46f3e29f7f2ac5ef93ff144e2e1702d2a28206a17d2164e528371fe29d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/Profile.kt",
+      "size": 354,
+      "sha256": "b45f23adf626052acdaca22eddc6c6ea5eff8c4844aa991633a681c5a061e0c3"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/RecurrenceRule.kt",
+      "size": 1256,
+      "sha256": "dcb7ffa346b3b7af4f0d2d554e0dc127008ad8338570e621746918305b286a50"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/SessionState.kt",
+      "size": 483,
+      "sha256": "0c498161c9510b32250fca027797d7034d8bf21e5bdd843cda3f4ad5ef7c3014"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/Task.kt",
+      "size": 3480,
+      "sha256": "b6c8a58b17040a231fed7fa02c929c4164aa1b232d7a19679bc483c2b05e9d2b"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/TaskAlert.kt",
+      "size": 1262,
+      "sha256": "62ca530bdbe041d000592eef1083df3721b4b25933d98ac9477927e81a579f8e"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/model/TimePeriod.kt",
+      "size": 1523,
+      "sha256": "8dfe0345987ea9a7601416eca9968df44458a7009c4e532ca713d4ab87d06731"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/scheduling/SchedulingEngine.kt",
+      "size": 4200,
+      "sha256": "8316725164eb9afab4e50be523a9bd94e375195fa97d8e7b7331a9c84aed76bb"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/scheduling/TaskFilters.kt",
+      "size": 1314,
+      "sha256": "76815a52df912e5bf8a57fa96426c5a6b8c545c358fddea5db430b0d35fa1a12"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/domain/scheduling/TaskOrdering.kt",
+      "size": 1347,
+      "sha256": "d232e0014515793106d1b67ce58a8c965c994d30b0c01b22784ddc4ad121fd73"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/AlertPlayer.kt",
+      "size": 5115,
+      "sha256": "a2e37c42e9e0894fee85e09fb813cfc2363822e0f93416233fd53d2d2b5e1752"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/BootReceiver.kt",
+      "size": 1581,
+      "sha256": "58b3f4330aad8036b1a0392471493d996770e01bfd838a4d4dd85ac7c658b075"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/NotificationActionReceiver.kt",
+      "size": 3870,
+      "sha256": "b440a2a82fb072c1f286a7db06ded97f2101bb80207cfd980314088484a1fdb6"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/NotificationActions.kt",
+      "size": 4718,
+      "sha256": "87feb605a75c44446aad723db28af67763fa0298504f7f7ffbe7da2fe86fbf8d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/NotificationContent.kt",
+      "size": 3269,
+      "sha256": "e9cc45423a5110a0323e1cc3edbd7bbc71f70c7bb67c80465606986a7f3d5010"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/NotificationRepositoryEntryPoint.kt",
+      "size": 705,
+      "sha256": "a52c105831e0adf677b6598de0830c149c70e0f363c5b2da4aa8a23f6b16cacd"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/notification/TaskBoard.kt",
+      "size": 29852,
+      "sha256": "280e46217609ecab3bdd9b1d57d600043749fd90b98d41be4e1ab8052b485228"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/quickadd/QuickAddActivity.kt",
+      "size": 11896,
+      "sha256": "860bcfbf15f88d2ac27de38ec9761a2580888fb43d6995b287dbb4ed1754073e"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/quickadd/QuickAddViewModel.kt",
+      "size": 3429,
+      "sha256": "8201e808fa02b02628bc91e30800adc0ac894cd1444127e40c647533abe1e697"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/session/DndController.kt",
+      "size": 1173,
+      "sha256": "42ec793671b28a0fe9c56fb13e7191a25efc32acde23876c8c52faf7be68c98f"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/session/SessionActions.kt",
+      "size": 1255,
+      "sha256": "07f1182a777a37f1156203189e8495dff0052e886b1bf04e307ca813e5049088"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/session/SessionPopupActivity.kt",
+      "size": 7683,
+      "sha256": "b521d12eca4f5be88e03e40b674f3f0342a002c4ee39ff2cea299ea02dd9a72c"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/session/SessionPopupViewModel.kt",
+      "size": 748,
+      "sha256": "8b1620d3d306d7712771814449840a3df66d102865ac8b7d7bae99bafc1fd492"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/session/SessionService.kt",
+      "size": 22206,
+      "sha256": "17fedaff4202519fc9beee28280dc3637d7bb64434554bd1113bb896364b6446"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/TaskManagerApp.kt",
+      "size": 1310,
+      "sha256": "5ab7bc8c95d897ed35ca793e480164298f087d0e699a4249e68564a345796d77"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/AlertPicker.kt",
+      "size": 3295,
+      "sha256": "659867063833dc3484ef6e7335fd572f0ab70113d7f758c6332a68e2674dc294"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/Badges.kt",
+      "size": 3954,
+      "sha256": "0595abc2a08f1f9a61e853f0c45487a9b94e134138e29dd1fe7b748cf76ab045"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/Cards.kt",
+      "size": 1155,
+      "sha256": "9e053eab1a9e71de7abcd219a585218faee2e0c15ff3bcaced0ef8d65abeca05"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/EmptyState.kt",
+      "size": 2279,
+      "sha256": "9c759f59fae974f1b659c4ba1ab4787d10a0d6fb3adf8291c51858d06292b1db"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/ProgressCard.kt",
+      "size": 3343,
+      "sha256": "508f43a2ee5f8b761bbfcb94890211a1904b7eb73020e7fdcf0089ff0abaf257"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/SectionHeader.kt",
+      "size": 734,
+      "sha256": "0afb1c6c9d1d4ae6d6b8745a3d1170edd2ffdd396f1bd2824ed9e4a58bd09f90"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/SessionTaskRow.kt",
+      "size": 6044,
+      "sha256": "28911075bb00037ea82c40873899451bb14b83d2c4cb569f6c9a7c73ff9ecb42"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/StudioProgressCard.kt",
+      "size": 3331,
+      "sha256": "1c21d5d04b7704cc3170e33a5653b650793d3e34c79d268b433a3606f10b0e28"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/TaskListItem.kt",
+      "size": 6055,
+      "sha256": "625d40e549a28a3708f4ca8542c67ab6773c21633e7456ecaed9bf3e1c147ab6"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/components/TimePickerDialog.kt",
+      "size": 1302,
+      "sha256": "7bdd45ec50fa597a9c964c5c82d29ae59edb70d657f0a3fb32cbc07fcaca7487"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/navigation/BottomNavBar.kt",
+      "size": 2995,
+      "sha256": "e3a4d3ebae76a5b2261a7c92aeb0a6f23a45116ca23c45909060ed0d05062339"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/navigation/Screen.kt",
+      "size": 1446,
+      "sha256": "34014d1b4a2e03a39d54cc8f762c20943c73efdcd7ccc0583a1405f1030bb1f4"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/navigation/TaskNavGraph.kt",
+      "size": 5081,
+      "sha256": "2984973e5b8c0002281644652e8a23bce177c494c0fe285e17ce8167aad4f86d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/addedit/AddEditTaskScreen.kt",
+      "size": 14556,
+      "sha256": "bf6ae8c1a58d9f076ea9beaeeb27dbffe77e550f7c31fdc1c183ad2d5d200f84"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/addedit/AddEditTaskViewModel.kt",
+      "size": 9050,
+      "sha256": "b5038474a733b555e961d6c6835d8f7e9635a1ad4d59a596c2dae21bad34c4fa"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/detail/TaskDetailScreen.kt",
+      "size": 10735,
+      "sha256": "fdbd04865f3a456b887339059cdd23b81f5e7ed48925a67be3914da4bc4490ca"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/detail/TaskDetailViewModel.kt",
+      "size": 2832,
+      "sha256": "ab7c57d3837eaa091d841a90db97777d651f198daf8cd6c64ef92cbb4061edcc"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/history/HistoryScreen.kt",
+      "size": 9123,
+      "sha256": "73218eb28c56654de2454015008899b0f3a56016a59a72e25f0c6acf1f4ddc96"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/history/HistoryViewModel.kt",
+      "size": 3009,
+      "sha256": "59b4a2eabbbc2cc51a787694ae3aefcdd7439483c571a45edd74e8b125fe4372"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/notes/NotesScreen.kt",
+      "size": 6913,
+      "sha256": "439df6c3bcff043ac8721a363a355a4dbdcbc9f0bc45918ef5d81d7f1900914a"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/notes/NotesViewModel.kt",
+      "size": 1487,
+      "sha256": "52869cfcd0f8951e9fc34827a093591341d054d26d6c05e3ddd707d3ee605d1c"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/profile/ProfileScreen.kt",
+      "size": 13519,
+      "sha256": "3274fedca2f525a487c453a7a156a45571e97390bd8711e013c9f5b2be304029"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/profile/ProfileViewModel.kt",
+      "size": 2012,
+      "sha256": "68ffe78cbaa0c46354db22e2062b1643a0df0f4b2501660494232199a2f4ff8d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/schedule/ScheduleScreen.kt",
+      "size": 13386,
+      "sha256": "c13057b183434044c3e510c663db649c5e0cdf4a0cf47032e8fa7a53a0b4c52b"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/schedule/ScheduleViewModel.kt",
+      "size": 7289,
+      "sha256": "ac7596e00d1262290c4c3c9b9df509b502cb1ee3df2d903fa845b6e36cc5e113"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/settings/AppearanceSettings.kt",
+      "size": 5427,
+      "sha256": "4846fb0ef410895086f451b164efa0ff79cc3158c8878c7a0d52d3d90addb039"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/settings/SettingsScreen.kt",
+      "size": 14309,
+      "sha256": "228a5eac020329f836388e54bcd4a05e0bdb2a9c8f15bd49f5bcaceb36f5b89c"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/settings/SettingsViewModel.kt",
+      "size": 2957,
+      "sha256": "90bceb15f8c706fb811717c8180567812c2183d48b5ec8bbc22bd9f586255153"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/stats/StatsScreen.kt",
+      "size": 7534,
+      "sha256": "69f1db629acf79c0b0e6a3403adcc511d1e715c803352214740642e247ca808c"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/stats/StatsViewModel.kt",
+      "size": 2029,
+      "sha256": "61ccd3034d2ed5a03126ddebf7cec6f4ac88e2adc49f64a4a3bb5473c008b749"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/timetable/TimetableScreen.kt",
+      "size": 3258,
+      "sha256": "8a9b4c9669ef9da98b4d78a70ec88015e3fad8c78914c17599c42cf4bd961a36"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/timetable/TimetableViewModel.kt",
+      "size": 1625,
+      "sha256": "2df7c4ccfa889eb470ce63f3e1c15e7f94b535eb84edbacb99000ec01e330a89"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/today/TodayScreen.kt",
+      "size": 7596,
+      "sha256": "8dd399049099350fdc175060700bf00e06410b5c5b2249b3a2b4b63e641c4d25"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/screens/today/TodayViewModel.kt",
+      "size": 3292,
+      "sha256": "9556da03c467c2fbbf8d6b2e9e7f2933a2b1deef451b5e259f6561db547395b1"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/theme/AppearancePreferences.kt",
+      "size": 1900,
+      "sha256": "47d7971d244c6170fb82dbfe756417c8bc5152271484d3ee6976053cefbe8d44"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/theme/Color.kt",
+      "size": 1819,
+      "sha256": "7cd2a2ab8db428761e83af8d2430cb602c69148a6a4308974196e58c6b200088"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/theme/StudioTheme.kt",
+      "size": 2777,
+      "sha256": "055a0ef237ca030c7ffaeeb1b1fede1948477d0e76d14a7275fcf03edaa13df9"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/theme/Theme.kt",
+      "size": 3788,
+      "sha256": "594465466b3db60cde7c7946844a7c9a85a252a45ead4c18c5318b1d481cdac9"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/ui/theme/Type.kt",
+      "size": 1395,
+      "sha256": "7e231b31f5cb68caf4508562fb696b17320476ee7ec3e2d44755b87663f34776"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/util/DateUtils.kt",
+      "size": 5119,
+      "sha256": "c5d364a412faa548bc4f0a7296d1e3bc81a46f6ca935ab9345eafe25609d46e1"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/widget/TaskWidget.kt",
+      "size": 14405,
+      "sha256": "2fab47d99dc8543fa2e854c4c14aa950439021847f9b6263a0203bc508c73c0b"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/widget/TaskWidgetProvider.kt",
+      "size": 3030,
+      "sha256": "cd5ecb69c464a684842d7ea29b5d45bf580d0431d0aedfdb13b9708905d1265d"
+    },
+    {
+      "path": "app/src/main/java/com/skai/taskmanager/widget/WidgetPalette.kt",
+      "size": 1767,
+      "sha256": "ee089567f21f563ba92020655d371b3af4277236559f158ba5c607b7c47eaf76"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "size": 645,
+      "sha256": "b5ac6d5087fb5bad4907558114e0abad518310ca60a79b2154725f692fa23cbd"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_note_dot.xml",
+      "size": 399,
+      "sha256": "e1b7cf5325922538b29dc86357c720b48c70b228cb15b078c32975d0c6f48756"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_stat_tasks.xml",
+      "size": 621,
+      "sha256": "a476928d57ba48099d22219e27a3c4bb24eaf434a2e6a6a5159a28868478df83"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_task_check.xml",
+      "size": 391,
+      "sha256": "c738a4f34e09acbe01209a44a66ae8aa4af6ef7775871bd4295f2aced8bfc4cd"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_task_uncheck.xml",
+      "size": 404,
+      "sha256": "30ec677fe593368afc7b74d659ff1aa0b767925b88c17d31f1c006e1f55212e1"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_background.xml",
+      "size": 309,
+      "sha256": "6e8839d6209840d89e45ecc05b1a36c47bdbec98b62464186b8fc521c1223864"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_botanical_art.xml",
+      "size": 1025,
+      "sha256": "80c0cdafabe661dfe35c74d45115fee45a4c29050243ea083c08144bdc228b90"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_botanical_button.xml",
+      "size": 195,
+      "sha256": "0ac86731b9ed8e500f564708b19a6d14b58732862982db7b987f53899a4df488"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_botanical_row.xml",
+      "size": 197,
+      "sha256": "f387863e5c66fe7d6b4ec089ff8d32a0ea57a0fcc347fde599cbb0cd74cae9b9"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_button_bg.xml",
+      "size": 223,
+      "sha256": "08484953cee43af08f4138125440576ee74af2acb1f2b989464b62438861a5e4"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_neon_art.xml",
+      "size": 1023,
+      "sha256": "b603daca5065084a6db3b3011786472162d4bdc9e0ebc29474818f00c6c91fd3"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_neon_button.xml",
+      "size": 195,
+      "sha256": "1ca368ec8f9c467bc4dc131c3aae4db932408f5638b973857a64bde4dea88efa"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_neon_row.xml",
+      "size": 197,
+      "sha256": "fc7415f426b8fee994a7889290185ca203d4c59a64e4e7618ccd34a9f1ffefde"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_paper_button.xml",
+      "size": 195,
+      "sha256": "c0654e8a4069842dddb840b023b4ed8863a20d24b2d0fce7434f16838c2821f5"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_paper_row.xml",
+      "size": 197,
+      "sha256": "02d7f520a9578c6479ff4241bdb293f8a35d809e21d2144c9de0aa1909798038"
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_round_mask.xml",
+      "size": 139,
+      "sha256": "4b4343e65326b36d77e083ac01e28af1ed2bf9a453c027d0b67f361c5bde8ee5"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/widget_paper_art.png",
+      "size": 2461628,
+      "sha256": "ca53a015e35194183a929bca0ff61dae71486cf0e630a4024df4b97f2558ec83"
+    },
+    {
+      "path": "app/src/main/res/layout/notification_collapsed.xml",
+      "size": 1321,
+      "sha256": "18ce94255090cf20c7f47e0ef65972264bccfa15135a06600f949ee93fb3c892"
+    },
+    {
+      "path": "app/src/main/res/layout/notification_expanded.xml",
+      "size": 3331,
+      "sha256": "6d0648e47b0a445b5cb1c62272fee8bbebdd49548808b8cc488b92db0e5091c3"
+    },
+    {
+      "path": "app/src/main/res/layout/notification_session.xml",
+      "size": 3421,
+      "sha256": "92b2adb7f42d65cfc156376db40ffd0b918d5d22e49660144f22ee9d6a1d72ab"
+    },
+    {
+      "path": "app/src/main/res/layout/notification_task_row.xml",
+      "size": 1106,
+      "sha256": "1f0a407c7ad2bed398291a065ace5e9d0d131d504daf0f6d7eab4f006a4138b0"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_styled_row.xml",
+      "size": 1381,
+      "sha256": "e2b131aeba2289c0972c88693315c14553368080784e52beb106fcf547c59901"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_task.xml",
+      "size": 3432,
+      "sha256": "51801c33a9fa72e6b3cc3c6b82fc9fb1c8ff5d05e4b30d146a053203d4f49641"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_task_classic.xml",
+      "size": 3432,
+      "sha256": "51801c33a9fa72e6b3cc3c6b82fc9fb1c8ff5d05e4b30d146a053203d4f49641"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_task_neon.xml",
+      "size": 4110,
+      "sha256": "dd32d1944f45267ae2588ae2aad5e7bcf44a42a0dfc5346d79048154aca9be4c"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_task_styled.xml",
+      "size": 4106,
+      "sha256": "92b6ec4b9fe17bfe94e194683a98001017d698bd7dd56e5f01bd97b9756f2dd1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "size": 341,
+      "sha256": "678da6560d837e905ba0c82a15a11918714729de283138721e85ccc1eb1ee9ff"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "size": 341,
+      "sha256": "678da6560d837e905ba0c82a15a11918714729de283138721e85ccc1eb1ee9ff"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "size": 316,
+      "sha256": "3e772e7421473a89eb2ede3f2e20ff6951ce452c52f270dc00eb28d8bfe60430"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "size": 191,
+      "sha256": "007a49f6a253ad13c18503e896f3d95524c514212dc0034fb1dd8562f2b91182"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "size": 796,
+      "sha256": "0b9a63481052e5077048d6eeab5254000204b37b4ae951cfb1674ff498f86980"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "size": 232,
+      "sha256": "7d9f8be491b84a51c2e0a2af838209667a96db6f876e793f648b1ae757cf1602"
+    },
+    {
+      "path": "app/src/main/res/xml/task_widget_info.xml",
+      "size": 685,
+      "sha256": "ae3dfa46ba5c83c650f23f8fdc723b4c99c7c380f6644774e66fff22be3b5b37"
+    },
+    {
+      "path": "app/src/test/java/com/skai/taskmanager/widget/AppearanceWidgetTest.kt",
+      "size": 6804,
+      "sha256": "0c6015bd0de81cc28843d30fa8b1a91741f45d768232c24e236d5a7ae5348a18"
+    },
+    {
+      "path": "app/src/test/java/com/skai/taskmanager/widget/StudioAppearanceTest.kt",
+      "size": 5117,
+      "sha256": "29f913711a762acabc2f4f308a772457bf4e311cafd5d5b57a9e4597450a33d8"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "size": 63375,
+      "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "size": 250,
+      "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+    },
+    {
+      "path": "store_assets/feature-graphic-1024x500.png",
+      "size": 87353,
+      "sha256": "f4be7cddfb0bec24c26596270a0a895302bde438e8509ab26967406e66231d04"
+    },
+    {
+      "path": "store_assets/icon-512.png",
+      "size": 38340,
+      "sha256": "1814885dd337d92c2791e565a6af5ec177b91318653eaeb4146ffaea9cafe8be"
+    },
+    {
+      "path": "store_assets/privacy-policy.html",
+      "size": 6304,
+      "sha256": "2183bd2a5e644886fbd1c2d16f39abae72d57bccd946d436a1e2e696cb675440"
+    },
+    {
+      "path": "store_assets/store-listing.txt",
+      "size": 2633,
+      "sha256": "a91fb1cebe5f229a17b00ad1d71746b92b11f66c77e5d35822553d5e4586e3b1"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_row_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp">
+
+    <ImageView
+        android:id="@+id/task_row_check"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_task_uncheck"
+        android:contentDescription="Mark complete" />
+
+    <TextView
+        android:id="@+id/task_row_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/notif_text_primary"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — TaskManager</title>
+<style>
+  :root {
+    --bg: #fefbff;
+    --surface: #f3f2fa;
+    --text: #1b1b1f;
+    --muted: #46464f;
+    --accent: #4c5fd5;
+    --border: #e3e1ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1b1f;
+      --surface: #24242b;
+      --text: #e4e1e6;
+      --muted: #c7c5d0;
+      --accent: #bac3ff;
+      --border: #46464f;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Roboto, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 2rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); margin-bottom: 32px; }
+  h2 {
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin: 36px 0 10px;
+    padding-top: 8px;
+  }
+  p { margin-bottom: 12px; }
+  ul { margin: 0 0 12px 24px; }
+  li { margin-bottom: 6px; }
+  .highlight {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 20px 0;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { color: var(--muted); font-weight: 600; font-size: 0.9rem; }
+  td:first-child { white-space: nowrap; font-weight: 600; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy</h1>
+  <p class="subtitle">TaskManager (com.skai.taskmanager) &middot; Effective date: 14 July 2026</p>
+
+  <div class="highlight">
+    <strong>The short version:</strong> TaskManager does not collect, store, transmit, share, or
+    sell any personal data. The app works entirely offline, does not request internet access,
+    contains no advertising, no analytics, and no third-party SDKs. Everything you create in the
+    app stays on your device.
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>
+    TaskManager is a personal day-planner app for Android that combines a to-do list, a focus
+    timer, reminders, and notes. This policy explains what data the app handles and how.
+  </p>
+
+  <h2>2. Data we collect</h2>
+  <p><strong>None.</strong> TaskManager does not collect any data — personal or otherwise. Specifically, the app has:</p>
+  <ul>
+    <li>No internet permission — it is technically incapable of sending data off your device.</li>
+    <li>No user accounts, sign-in, or registration.</li>
+    <li>No advertising and no advertising ID usage.</li>
+    <li>No analytics, crash reporting, or tracking of any kind.</li>
+    <li>No third-party SDKs or services.</li>
+  </ul>
+
+  <h2>3. Data stored on your device</h2>
+  <p>
+    Everything you create in the app — tasks, notes, schedules, focus-session statistics,
+    settings, and the optional profile name, bio, and photo — is stored in a private local
+    database on your device only. It is never uploaded, synced, or backed up to any server by us,
+    and no one (including the developer) can access it.
+  </p>
+  <p>
+    If you pick a custom alert sound, the app only remembers a reference to the audio file you
+    chose so it can play it for your reminders. The file is never copied or transmitted.
+  </p>
+
+  <h2>4. Permissions the app uses and why</h2>
+  <table>
+    <tr><th>Permission</th><th>Why it is needed</th></tr>
+    <tr>
+      <td>Notifications</td>
+      <td>To show your task list, task-time reminders, note reminders, and the focus-session timer.</td>
+    </tr>
+    <tr>
+      <td>Run at startup</td>
+      <td>To re-schedule your reminders after the device reboots (alarms are cleared by Android on restart).</td>
+    </tr>
+    <tr>
+      <td>Foreground service</td>
+      <td>Used only while a focus session you started is running, so the live countdown keeps working when the app is closed. It stops when the session ends.</td>
+    </tr>
+    <tr>
+      <td>Vibration</td>
+      <td>For the alert profiles (vibrate, chime, melody, alarm) you assign to tasks.</td>
+    </tr>
+    <tr>
+      <td>Full-screen notifications</td>
+      <td>Optionally shows the end-of-session alert over the lock screen when a focus timer finishes.</td>
+    </tr>
+    <tr>
+      <td>Do Not Disturb access</td>
+      <td>Optional. Only if you enable it, the app turns on Do Not Disturb during a focus session and restores your previous setting afterwards. You can revoke this at any time in system settings.</td>
+    </tr>
+  </table>
+  <p>None of these permissions are used to read, collect, or transmit personal information.</p>
+
+  <h2>5. Data sharing</h2>
+  <p>
+    We do not share data with anyone, because no data ever leaves your device. There are no
+    third parties involved in the operation of this app.
+  </p>
+
+  <h2>6. Data retention and deletion</h2>
+  <p>
+    Your data exists only inside the app on your device. You can delete individual tasks and
+    notes in the app at any time. Clearing the app's storage in Android settings, or
+    uninstalling the app, permanently removes all of its data. There is nothing to delete on
+    any server, because nothing is stored on one.
+  </p>
+
+  <h2>7. Children's privacy</h2>
+  <p>
+    TaskManager is suitable for general audiences. Since the app collects no data from any
+    user, it also collects no data from children.
+  </p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>
+    If a future version of the app ever changes how data is handled (for example, adding an
+    optional backup feature), this policy will be updated before that version is released, and
+    the effective date above will change.
+  </p>
+
+  <h2>9. Contact</h2>
+  <p>
+    Questions about this policy or the app? Contact:
+    <a href="mailto:lomeharshanya@gmail.com">lomeharshanya@gmail.com</a>
+  </p>
+
+  <footer>
+    &copy; 2026 TaskManager &middot; This policy applies to the TaskManager Android app
+    (package <code>com.skai.taskmanager</code>) distributed via Google Play.
+  </footer>
+
+</div>
+</body>
+</html>

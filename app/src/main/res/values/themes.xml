@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base theme used before Compose takes over. Inherits from a Material3
+        DayNight theme with no action bar, since Compose draws the full UI.
+    -->
+    <style name="Theme.TaskManager" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Transparent window so the quick-add popup shows only its Compose dialog, not the app. -->
+    <style name="Theme.TaskManager.Transparent" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+==== SHORT DESCRIPTION (max 80 chars) ====
+
+Plan your day: to-do list, focus timer, smart reminders, notes and widgets.
+
+==== FULL DESCRIPTION (max 4000 chars) ====
+
+TaskManager is a clean, fully offline day planner that combines a smart to-do list, a focus timer, and reminders that work your way — everything you need to run your day from one place.
+
+YOUR DAY, ORGANIZED
+• The Today screen shows exactly what's on your plate: timed tasks slot into your schedule, urgent items float to the top, and finished ones tick off satisfyingly.
+• Define your own day periods (Morning, Afternoon, Evening, Night…) — tasks automatically organize themselves into the right part of the day.
+• Recurring tasks and a personal timetable keep routines like gym, study or medication coming back automatically: daily, weekly, monthly or any custom interval.
+• At midnight everything rolls over by itself: finished tasks are filed into History, missed ones are recorded, and your routines get a fresh start. No duplicates, no clutter.
+
+REMINDERS THAT WORK YOUR WAY
+• Give any task a time and it pops up right on schedule.
+• Choose how each task announces itself: silent, vibrate, chime, melody, a full alarm with constant vibration — or any sound file from your phone.
+• Skip a task for the day or snooze it, straight from the notification.
+• Reminders disappear by themselves after a duration you choose.
+
+FOCUS SESSIONS
+• Turn any task into a focus session with a live countdown timer.
+• Pause, extend or complete it right from the notification.
+• Optional Do Not Disturb for the length of the session — restored automatically when you're done.
+• Customizable "almost done" warning and end-of-session alert, per task.
+• See your total focus time by activity in Stats.
+
+NOTES, ALWAYS AT HAND
+• Jot quick notes and pin the important ones.
+• Optional periodic notes reminder with your own message and interval — pinned notes ride along right inside the notification.
+
+EVERYTHING AT A GLANCE
+• A command-center notification with your current tasks: tap to complete, add tasks or notes without opening the app. Keep it pinned or make it swipeable — your choice.
+• A resizable home-screen widget with three pages — today's tasks, completed, and notes — with quick add built in.
+• A searchable History of every day: done, missed and skipped.
+
+PRIVATE BY DESIGN
+• 100% offline. No account, no ads, no tracking — the app doesn't even request internet access. Your data never leaves your device.
+
+Light on your battery, heavy on your productivity. Install TaskManager and let your day organize itself.
